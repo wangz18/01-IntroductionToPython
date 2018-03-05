@@ -101,23 +101,36 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
-natasha.backward(169)
+natasha.forward(169)
 natasha.right(30)
 natasha.forward(150)
 
 
 mike= rg.SimpleTurtle('turtle')
 mike.pen = rg.Pen('blue', 10)
-mike.speed = 2
+mike.speed = 0.1
 
 mike.forward(190)
-mike.right(90)
+mike.right(60)
 mike.forward(190)
-mike.right(90)
+mike.right(60)
 mike.forward(190)
-mike.right(90)
+mike.right(60)
 mike.forward(190)
-mike.right(45)
+mike.right(60)
+mike.forward(190)
+mike.right(60)
+mike.forward(190)
+mike.right(120)
+mike.forward(380)
+mike.right(120)
+mike.forward(190)
+mike.right(120)
+mike.forward(380)
+mike.right(120)
+mike.forward(190)
+mike.right(120)
+mike.forward(380)
 
 ###############################################################################
 #
@@ -162,7 +175,7 @@ mike.right(45)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
