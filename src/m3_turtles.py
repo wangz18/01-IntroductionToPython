@@ -17,7 +17,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 # TODO: 1.
 #   Yes, that means for YOU to DO things per the following instructions:
 #
-#   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
+#   On Line 13 above, replace  Alex  with your OWN name.
 #
 #   BTW, the top block of text above forms what is called a DOC-STRING.
 #   It documents what this module does, in a way that exterior programs
