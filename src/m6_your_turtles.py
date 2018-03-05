@@ -45,7 +45,7 @@ for k in range(6):
     mike.pen_down()
 
 Shay= rg.SimpleTurtle('turtle')
-Shay.pen = rg.Pen('red', 15)
+Shay.pen = rg.Pen('red', 10)
 Shay.speed = 200
 size = 150
 for k in range(8):
