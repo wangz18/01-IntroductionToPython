@@ -101,11 +101,27 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
+natasha.backward(169)
+natasha.right(30)
+natasha.forward(150)
 
+
+mike= rg.SimpleTurtle('turtle')
+mike.pen = rg.Pen('blue', 10)
+mike.speed = 2
+
+mike.forward(190)
+mike.right(90)
+mike.forward(190)
+mike.right(90)
+mike.forward(190)
+mike.right(90)
+mike.forward(190)
+mike.right(45)
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more line of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -119,7 +135,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
