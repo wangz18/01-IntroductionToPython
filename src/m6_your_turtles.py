@@ -2,10 +2,10 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Zhiyu Wang HERE.
 """
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
@@ -27,3 +27,48 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+import rosegraphics as rg
+
+window = rg.TurtleWindow()
+
+
+mike=rg.SimpleTurtle('turtle')
+mike.pen=rg.Pen('light green',3)
+mike.speed=200
+size=300
+for k in range(6):
+
+    mike.draw_square(size)
+
+    mike.pen_up()
+    mike.right(60)
+    mike.pen_down()
+
+Shay= rg.SimpleTurtle('turtle')
+Shay.pen = rg.Pen('red', 15)
+Shay.speed = 200
+size = 150
+for k in range(8):
+
+    Shay.draw_circle(size)
+
+    Shay.pen_up()
+    Shay.pen_down()
+
+    Shay.forward(100)
+    Shay.right(45)
+    Shay.forward(100)
+    Shay.right(45)
+    Shay.forward(100)
+    Shay.right(45)
+    Shay.forward(100)
+    Shay.right(45)
+    Shay.forward(100)
+    Shay.right(45)
+    Shay.forward(100)
+    Shay.right(45)
+    Shay.forward(100)
+    Shay.right(45)
+    Shay.forward(100)
+
+window.close_on_mouse_click()
